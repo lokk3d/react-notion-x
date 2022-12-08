@@ -1,4 +1,4 @@
-import mem from 'mem'
+import mem from 'mem/dist'
 import normalizeUrlImpl from 'normalize-url'
 
 export const normalizeUrl = mem((url?: string) => {
